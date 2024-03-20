@@ -1,22 +1,21 @@
-This is a blank extension template. It doesn't really do anything on its own.
-It is intended to provide a boiler template for an actual MediaWiki extension.
+HI Rob
 
-If you are checking this out from Git and intend to use it, you may use the
-following commands to make a clean directory of just this template without the
-Git meta-data and other examples.
+This is 20 March 2024 Rob, trying to get this repo to:
 
-	cd extensions
-	git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/BoilerPlate.git
-	cp -r BoilerPlate ./MyExtension
-	rm -rf ./MyExtension/.git
+1. Replace `art.robnugen.com` extension on wiki.robnugen.com
+2. Work in PHP 8.1 and Mediwiki 1.34
+3. Minimally change original repo for art.robnugen.com extension to match what ends up working here
 
-This automates the recommended code checkers for PHP and JavaScript code in Wikimedia projects
-(see https://www.mediawiki.org/wiki/Continuous_integration/Entry_points).
-To take advantage of this automation.
+Local Lemur:
 
-1. install nodejs, npm, and PHP composer
-2. change to the extension's directory
-3. `npm install`
-4. `composer install`
+```
+cd ~/work/rob/BoilerPlate
+./scp_modified_files_to_dh_wiki.sh
+```
 
-Once set up, running `npm test` and `composer test` will run automated code checks.
+Dreamhost:
+
+```
+ssh wiki
+cd ~/wiki.robnugen.com/w/extensions/ArtRobNugenCom
+```
