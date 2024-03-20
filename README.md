@@ -1,3 +1,9 @@
+Hello stranger
+
+This is a public repo but you probably won't find much of interest to you.  I recommend you go for the original at https://gerrit.wikimedia.org/r/mediawiki/extensions/BoilerPlate
+
+
+
 HI Rob
 
 This is 20 March 2024 Rob, trying to get this repo to:
