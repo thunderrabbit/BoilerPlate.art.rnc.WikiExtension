@@ -1,14 +1,14 @@
 {
-	"name": "BoilerPlate",
+	"name": "ArtRobNugenCom",
 	"author": [
-		"Your Name"
+		"Rob Nugen"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
 	"descriptionmsg": "boilerplate-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.42.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\BoilerPlate\\": "src/"
